@@ -1,0 +1,55 @@
+{
+  "name": "vuescape",
+  "version": "0.0.1",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/marco-quintella/vuescape"
+  },
+  "scripts": {
+    "dev": "pnpm run storybook",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "normalize.css": "^8.0.1"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^0.38.6",
+    "@storybook/addon-essentials": "^7.0.12",
+    "@storybook/addon-interactions": "^7.0.12",
+    "@storybook/addon-links": "^7.0.12",
+    "@storybook/blocks": "^7.0.12",
+    "@storybook/testing-library": "^0.0.14-next.2",
+    "@storybook/vue3": "^7.0.12",
+    "@storybook/vue3-vite": "^7.0.12",
+    "@types/jest": "^29.5.1",
+    "@types/node": "^20.1.7",
+    "@types/shelljs": "^0.8.12",
+    "@vitejs/plugin-vue": "^4.2.3",
+    "eslint": "^8.40.0",
+    "eslint-plugin-storybook": "^0.6.12",
+    "postcss": "^8.4.23",
+    "postcss-html": "^1.5.0",
+    "postcss-preset-env": "^8.3.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "storybook": "^7.0.12",
+    "typescript": "^5.0.4",
+    "vite": "^4.3.7",
+    "vue": "^3.3.2"
+  },
+  "peerDependencies": {
+    "vue": ">=3.0.0"
+  },
+  "files": [
+    "**/*"
+  ],
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
