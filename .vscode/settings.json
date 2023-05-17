@@ -1,7 +1,9 @@
 {
   "editor.formatOnSave": true,
+  "editor.defaultFormatter": "rvest.vs-code-prettier-eslint",
   "editor.codeActionsOnSave": {
     "source.fixAll": true,
     "source.organizeImports": true
-  }
+  },
+  "typescript.format.semicolons": "remove"
 }

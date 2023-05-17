@@ -1,9 +1,9 @@
-import type { StorybookConfig } from "@storybook/vue3-vite";
-import { resolve } from 'path';
-import { mergeConfig } from 'vite';
+import type { StorybookConfig } from "@storybook/vue3-vite"
+import { resolve } from 'path'
+import { mergeConfig } from 'vite'
 
 const config: StorybookConfig = {
-  stories: ["../src/**/*.mdx", "../src/**/*.stories.@(js|jsx|ts|tsx)"],
+  stories: ["../src/**/*.stories.@(js|jsx|ts|tsx)"],
   addons: [
     "@storybook/addon-links",
     "@storybook/addon-essentials",
@@ -21,7 +21,7 @@ const config: StorybookConfig = {
         resolve: {
             alias: [
                 {
-                    find: /^@inkline\/inkline\//,
+                    find: /^@vuescape\/vuescape\//,
                     replacement: `${resolve(__dirname, '..')}/src/`
                 }
             ]
