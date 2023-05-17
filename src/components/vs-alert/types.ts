@@ -1,9 +1,8 @@
-export interface VsAlertProps {
-  /**
-   * The size of the variant
-   * @type number | string
-   * @default
-   * @name size
-   */
-  size?: number | string | 'xs' | 'sm' | 'md' | 'lg' | 'xl'
+import type { DefaultBorderRadius, DefaultMargin } from '@vuescape/vuescape/shared'
+
+export type VsAlertProps = DefaultMargin
+& DefaultBorderRadius
+& {
+  gap: string
+  bg: string
 }
